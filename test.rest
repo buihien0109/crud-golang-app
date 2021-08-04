@@ -1,0 +1,19 @@
+GET http://localhost:3000/api/v1/book HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/v1/book/2 HTTP/1.1
+
+### 
+POST http://localhost:3000/api/v1/book HTTP/1.1
+Content-Type: application/json
+
+{
+    "author" : "La Bich Huyen",
+    "title" : "Nguyen tac cua su ky luat",
+    "rating" : 5
+}
+###
+
+DELETE http://localhost:3000/api/v1/book/1 HTTP/1.1
+
